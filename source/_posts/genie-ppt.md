@@ -9,7 +9,7 @@ tags:
 
 ### 第一步：Genie生成文案
 
-登录Genie，输入Prompt，生成Markdown格式的文案，这里以产品经理转正答辩为例，输入如下的Prompt：
+登录[Genie](https://ai.poemhub.top/)，输入Prompt，生成Markdown格式的文案，这里以产品经理转正答辩为例，输入如下的Prompt：
 
 ```
 生成一份产品经理转正答辩的PPT，内容以markdown格式输出
@@ -21,7 +21,7 @@ tags:
 
 ### 第二步：Mindshow生成PPT
 
-登录Mindshow，选择导入菜单，拷贝生成的文案到创建PPT区域，点击创建即可生成PPT。如下图所示：
+登录[Mindshow](https://mindshow.fun/)，选择导入菜单，拷贝生成的文案到创建PPT区域，点击创建即可生成PPT。如下图所示：
 
 
 ![](./genie-ppt/image-import-mindshow.png)
