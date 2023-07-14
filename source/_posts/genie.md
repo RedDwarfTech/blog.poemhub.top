@@ -1,6 +1,6 @@
 ---
 title: Genie介绍
-date: 2013-04-16 17:01:34
+date: 2023-04-16 17:01:34
 tags:
 - Genie
 - AI
