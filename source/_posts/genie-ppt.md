@@ -2,6 +2,8 @@
 title: 用Genie快速自动生成PPT
 date: 2023-07-13 15:24:25
 tags:
+- Genie
+- AI
 ---
 
 
