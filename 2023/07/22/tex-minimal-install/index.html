@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=0.5"><link rel="stylesheet" href="/css/post.css"><link rel="icon" href="/img/favicon.png"><title>TeX最小化安装</title><meta name="generator" content="Hexo 6.1.0"></head><body>　　<div class="inner"><h2>TeX最小化安装</h2><p>截止到2023年，TeX Live的完整安装包已经超过了4GB。虽然到2023年磁盘空间已经不是需要特别在意的事情，但是某些场景还是需要最小化安装。比如云上批量部署到时候有时需要更小的镜像来节省镜像下载带宽以及磁盘空间。</p>
+<h2 id="Mac下最小化安装TeX"><a href="#Mac下最小化安装TeX" class="headerlink" title="Mac下最小化安装TeX"></a>Mac下最小化安装TeX</h2><p>Mac下最小化安装需要一个小型的分发版(Distribution)Basic TeX,只需要90MB左右的空间，实际可能要更大一些，因为还需要安装一些额外的包。在MacOS下执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install --cask basictex</span><br></pre></td></tr></table></figure>
+
+<p>使用如下命令安装需要的包：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tlmgr install ctex</span><br></pre></td></tr></table></figure>
+
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[1]<a target="_blank" rel="noopener" href="https://www.tug.org/mactex/morepackages.html">TUG MacTex文档</a></p>
+</div><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script></body></html>
