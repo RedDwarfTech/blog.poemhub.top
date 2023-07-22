@@ -22,8 +22,45 @@ brew install --cask basictex
 sudo tlmgr install ctex
 ```
 
+## *nix下最小化安装TeX
+
+从CTAN(The Comprehensive TeX Archive Network)下载*nix安装程序：
+
+```Bash
+# 下载安装程序
+wget -c https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+# 解压安装文件
+tar -zxvf install-tl-unx.tar.gz
+cd install-tl-unx
+./install-tl-unx
+```
+
+安装的时候选择对应的Schema即可：
+
+
+```
+===============================================================================
+Select scheme:
+
+ a [ ] full scheme (everything)
+ b [ ] medium scheme (small + more packages and languages)
+ c [X] small scheme (basic + xetex, metapost, a few languages)
+ d [ ] basic scheme (plain and latex)
+ e [ ] minimal scheme (plain only)
+ f [ ] infrastructure-only scheme (no TeX at all)
+ g [ ] book publishing scheme (core LaTeX and add-ons)
+ h [ ] ConTeXt scheme
+ i [ ] GUST TeX Live scheme
+ j [ ] teTeX scheme (more than medium, but nowhere near full)
+ k [ ] custom selection of collections
+
+Actions: (disk space required: 587 MB)
+ <R> return to main menu
+ <Q> quit
+
+Enter letter to select scheme:
+```
+
 ## 参考
 
 [1][TUG MacTex文档](https://www.tug.org/mactex/morepackages.html)
-
-
